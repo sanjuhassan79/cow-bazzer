@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>Document</title>
+
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .images {
+            background-image: url(./img/images.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-transform: uppercase;
+        }
+        
+        .images1 {
+            background-image: url(./img/images.jpg);
+        }
+        
+        .images2 {
+            background-image: url(./img/images\ \(1\).jpg);
+        }
+        
+        .images3 {
+            background-image: url(./img/prod-image-500x500.jpg);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light ">
+            <div class="container-fluid d-flex justify-content-between px-5">
+                <div class="">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/download-removebg-preview.png" alt="" width="150" height="50">
+                    </a>
+                </div>
+                <div class="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact us
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- slider -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/New Project.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption w-25  mtmar" style="margin-bottom: 24rem;
+                    text-align: left;">
+                        <div class="">
+                            <h1 class="text-warning text-uppercase fw-bold">First slide label</h1>
+                            <p class="text-white fs-6">Some representative placeholder content for the first slide.</p>
+                            <h1 class="text-warning text-uppercase fw-bold">$1000</h1>
+                            <a href="#" class="btn btn-warning" role="button" data-bs-toggle="button">Toggle link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./img/New Project1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption w-25  mtmar" style="margin-bottom: 24rem;
+                    text-align: left;">
+                        <div class="">
+                            <h1 class="text-warning text-uppercase fw-bold">First slide label</h1>
+                            <p class="text-white fs-6">Some representative placeholder content for the first slide.</p>
+                            <h1 class="text-warning text-uppercase fw-bold">$1000</h1>
+                            <a href="#" class="btn btn-warning" role="button" data-bs-toggle="button">Toggle link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./img/New Project2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption w-25  mtmar" style="margin-bottom: 24rem;
+                    text-align: left;">
+                        <div class="">
+                            <h1 class="text-warning text-uppercase fw-bold">First slide label</h1>
+                            <p class="text-white fs-6">Some representative placeholder content for the first slide.</p>
+                            <h1 class="text-warning text-uppercase fw-bold">$1000</h1>
+                            <a href="#" class="btn btn-warning" role="button" data-bs-toggle="button">Toggle link</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </header>
+
+    <main>
+        <section>
+            <div class="container my-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col ">
+                        <div class="card images images1">
+                            <h3>black</h3>
+                        </div>
+
+                    </div>
+                    <div class="col ">
+                        <div class="card images images2">
+                            <h3>red</h3>
+                        </div>
+
+                    </div>
+                    <div class="col ">
+                        <div class="card images images3">
+                            <h3>goat black</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="my-5">
+            <div class="container">
+                <h1 class="text-warning text-uppercase fw-bold text-center border-warning border-bottom border-3 mb-5 w-50 m-auto">FATURED PRODUCTS</h1>
+                <div class="row row-cols-1 row-cols-md-5 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/images (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center mt-3">
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <h5 class="card-title text-dark fs-6 fw-bold py-2">Simple Product 010</h5>
+                                <p class="text-warning fs-5 fw-bolder"><del class="text-muted">$76.00</del> $66.00</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
